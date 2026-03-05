@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="container person-profile">
+  <div class="person-header">
+    <div class="person-photo-large">
+      {% if page.photo %}
+        <img src="{{ page.photo | relative_url }}" alt="{{ page.name }}">
+      {% else %}
+        <div class="person-photo-placeholder">{{ page.name | slice: 0 }}</div>
+      {% endif %}
+    </div>
+    <div class="person-details">
+      <h1 class="person-name">{{ page.name }}</h1>
+      <p class="person-position">{{ page.position }}</p>
+      {% if page.role %}
+        <span class="badge badge-{{ page.role | downcase | replace: ' ', '-' }}">{{ page.role }}</span>
+      {% endif %}
+      {% if page.email %}
+        <a href="mailto:{{ page.email }}" class="person-email">{{ page.email }}</a>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="person-bio content-block">
+    <h2>Biography</h2>
+    {{ content }}
+  </div>
+</div>
