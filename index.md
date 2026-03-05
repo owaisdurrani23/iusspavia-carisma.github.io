@@ -31,7 +31,7 @@ title: Home
       <h2 class="section-title">What We Do</h2>
       <p class="section-desc">Our lab focuses on sustainable agricultural systems through interdisciplinary research.</p>
     </header>
-    
+
     <div class="research-grid">
       {% for project in site.research limit:3 %}
       <article class="research-card">
@@ -42,7 +42,7 @@ title: Home
       </article>
       {% endfor %}
     </div>
-    
+
     <div class="section-cta">
       <a href="/research/" class="btn btn-outline">View All Research</a>
     </div>
@@ -81,7 +81,7 @@ title: Home
       <h2 class="section-title">Meet the Researchers</h2>
       <p class="section-desc">A diverse group of scientists, engineers, and thinkers.</p>
     </header>
-    
+
     <div class="team-grid">
       {% assign leaders = site.people | where: "role", "PI" %}
       {% for person in leaders limit:2 %}
@@ -102,7 +102,7 @@ title: Home
       </article>
       {% endfor %}
     </div>
-    
+
     <div class="section-cta">
       <a href="/people/" class="btn btn-outline">Meet the Full Team</a>
     </div>
@@ -116,7 +116,7 @@ title: Home
       <span class="section-tag">Latest Updates</span>
       <h2 class="section-title">News & Events</h2>
     </header>
-    
+
     <div class="news-list">
       {% for post in site.news limit:3 %}
       <article class="news-item">
@@ -130,7 +130,7 @@ title: Home
       </article>
       {% endfor %}
     </div>
-    
+
     <div class="section-cta">
       <a href="/news/" class="btn btn-outline">All News</a>
     </div>

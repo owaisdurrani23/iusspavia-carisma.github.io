@@ -17,7 +17,7 @@ lab:
   university: "University Name"
   location: "City, Country"
   founded: 2018
-  
+
 # Contact Information
 contact:
   email: "lab@university.edu"
@@ -27,14 +27,14 @@ contact:
     123 University Avenue
     City, ST 12345
   map_link: "https://maps.google.com/..."
-  
+
 # Social Links
 social:
   twitter: "https://twitter.com/labhandle"
   github: "https://github.com/laborg"
   linkedin: "https://linkedin.com/company/lab"
   bluesky: "https://bsky.app/profile/lab.bsky.social"
-  
+
 # Navigation
 navigation:
   - title: "Research"
