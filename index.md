@@ -11,8 +11,8 @@ title: Home
     <p class="hero-subtitle">{{ site.lab.tagline }}</p>
     <p class="hero-description">{{ site.description }}</p>
     <div class="hero-actions">
-      <a href="/research/" class="btn btn-primary">Explore Our Research</a>
-      <a href="/contact/" class="btn btn-secondary">Get in Touch</a>
+      <a href="{{ '/research/' | relative_url }}" class="btn btn-primary">Explore Our Research</a>
+      <a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary">Get in Touch</a>
     </div>
   </div>
   <div class="hero-visual">
@@ -38,13 +38,13 @@ title: Home
         <div class="research-icon">{{ project.icon | default: "🔬" }}</div>
         <h3 class="research-title">{{ project.title }}</h3>
         <p class="research-excerpt">{{ project.excerpt | strip_html | truncatewords: 20 }}</p>
-        <a href="{{ project.url }}" class="research-link">Learn more →</a>
+        <a href="{{ project.url | relative_url }}" class="research-link">Learn more →</a>
       </article>
       {% endfor %}
     </div>
 
     <div class="section-cta">
-      <a href="/research/" class="btn btn-outline">View All Research</a>
+      <a href="{{ '/research/' | relative_url }}" class="btn btn-outline">View All Research</a>
     </div>
   </div>
 </section>
@@ -54,7 +54,7 @@ title: Home
   <div class="container">
     <div class="stats-grid">
       <div class="stat-item">
-        <span class="stat-number">{{ site.lab.founded | minus: 2026 | abs }}</span>
+        <span class="stat-number">{{ "now" | date: "%Y" | minus: site.lab.founded }}</span>
         <span class="stat-label">Years Active</span>
       </div>
       <div class="stat-item">
@@ -87,8 +87,8 @@ title: Home
       {% for person in leaders limit:2 %}
       <article class="team-card team-card-featured">
         <div class="team-photo">
-          {% if person.photo %}
-          <img src="{{ person.photo }}" alt="{{ person.name }}">
+          {% if person.photo and person.photo != "" %}
+          <img src="{{ person.photo | relative_url }}" alt="{{ person.name }}">
           {% else %}
           <div class="team-photo-placeholder">{{ person.name | slice: 0 }}</div>
           {% endif %}
@@ -96,15 +96,15 @@ title: Home
         <div class="team-info">
           <h3 class="team-name">{{ person.name }}</h3>
           <p class="team-role">{{ person.position }}</p>
-          <p class="team-bio">{{ person.bio | strip_html | truncatewords: 15 }}</p>
-          <a href="{{ person.url }}" class="team-link">View Profile →</a>
+          <p class="team-bio">{{ person.content | strip_html | truncatewords: 15 }}</p>
+          <a href="{{ person.url | relative_url }}" class="team-link">View Profile →</a>
         </div>
       </article>
       {% endfor %}
     </div>
 
     <div class="section-cta">
-      <a href="/people/" class="btn btn-outline">Meet the Full Team</a>
+      <a href="{{ '/people/' | relative_url }}" class="btn btn-outline">Meet the Full Team</a>
     </div>
   </div>
 </section>
@@ -124,7 +124,7 @@ title: Home
           {{ post.date | date: "%b %d, %Y" }}
         </time>
         <div class="news-content">
-          <h3 class="news-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <h3 class="news-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
           <p class="news-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
         </div>
       </article>
@@ -132,7 +132,7 @@ title: Home
     </div>
 
     <div class="section-cta">
-      <a href="/news/" class="btn btn-outline">All News</a>
+      <a href="{{ '/news/' | relative_url }}" class="btn btn-outline">All News</a>
     </div>
   </div>
 </section>
@@ -144,7 +144,7 @@ title: Home
       <h2 class="cta-title">Interested in Collaboration?</h2>
       <p class="cta-text">We're always looking for passionate researchers, students, and partners to join our mission.</p>
       <div class="cta-actions">
-        <a href="/contact/" class="btn btn-primary">Contact Us</a>
+        <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Contact Us</a>
         <a href="mailto:{{ site.contact.email }}" class="btn btn-ghost">{{ site.contact.email }}</a>
       </div>
     </div>

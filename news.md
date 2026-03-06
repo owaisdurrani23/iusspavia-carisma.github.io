@@ -11,9 +11,9 @@ permalink: /news/
       {{ post.date | date: "%B %-d, %Y" }}
     </time>
     <div class="news-content">
-      <h3 class="news-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h3 class="news-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       <p class="news-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-      <a href="{{ post.url }}" class="read-more">Read more →</a>
+      <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
     </div>
   </article>
   {% endfor %}

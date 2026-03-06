@@ -82,7 +82,7 @@ plugins:
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: "news"
     values:
       layout: "post"
   - scope:
