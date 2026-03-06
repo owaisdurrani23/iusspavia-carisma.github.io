@@ -838,6 +838,10 @@ img {
   margin-top: var(--spacing-sm);
 }
 
+.person-orcid {
+  margin-top: var(--spacing-sm);
+}
+
 .person-program {
   margin-top: var(--spacing-sm);
   color: var(--color-muted);

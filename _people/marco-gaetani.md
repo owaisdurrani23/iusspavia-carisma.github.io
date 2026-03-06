@@ -6,7 +6,8 @@ role: "Head"
 group: "Head"
 sort_order: 1
 email: "marco.gaetani@iusspavia.it"
+orcid: "https://orcid.org/0000-0003-3778-1343"
 photo: ""
 ---
 
-Profile details for Prof. Marco Gaetani can be updated here.
+Marco Gaetani is an associate professor in Earth System Physics at IUSS Pavia and head of the CARISMA research centre. According to the IUSS contact page, his work focuses on climate modelling, climate change, meteorological extremes and climate services, and he teaches climate dynamics and climate change topics across degree and PhD programmes.
