@@ -156,6 +156,13 @@ img {
   color: var(--color-primary);
 }
 
+.logo-icon {
+  height: 32px;   /* adjust to match your nav height */
+  width: auto;
+  display: block;
+}
+
+
 .site-nav ul {
   list-style: none;
   display: flex;
