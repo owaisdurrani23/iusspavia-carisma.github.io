@@ -13,16 +13,12 @@ title: CARISMA
       <p class="centre-affiliation">
         Part of <a href="https://www.iusspavia.it/en" target="_blank" rel="noreferrer">IUSS Pavia</a>.
       </p>
-      <figure class="centre-image-frame">
-        <img src="{{ '/assets/img/grp.jpg' | relative_url }}" alt="CARISMA group" class="centre-image">
-      </figure>
     </div>
   </div>
 </section>
 
 <section class="centre-section" markdown="0">
   <div class="container prose-block">
-    <h2>Overview</h2>
     {% for paragraph in site.lab.overview.intro %}
     <p>{{ paragraph }}</p>
     {% endfor %}
