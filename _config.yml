@@ -12,7 +12,7 @@ baseurl: "/lab-website" # to be changed if the site is hosted in the main direct
 # Hero Slider (homepage)
 hero_slider:
   auto_rotate: true
-  interval: 5000  # milliseconds
+  interval: 20000  # milliseconds (20 seconds)
   slides:
     - image: "/assets/img/slider/carisma_at_egu25.jpeg"
       caption: "CARISMA team attending the EGU General Assembly 2025 in Vienna"
