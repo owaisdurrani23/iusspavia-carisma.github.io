@@ -4,12 +4,12 @@ title: Resources
 permalink: /resources/
 ---
 
-<div class="prose-block people-section">
+<div class="prose-block page-section">
   <h2>Resources</h2>
   <p>CARISMA promotes open science through shared code, reproducible workflows, and transparent documentation. This page collects the main resources available to collaborators, students, and external users.</p>
 </div>
 
-<div class="prose-block people-section">
+<div class="prose-block page-section">
   <h2>GitHub</h2>
   <div class="two-column-grid">
     <div class="info-panel">
@@ -31,12 +31,12 @@ permalink: /resources/
   </div>
 </div>
 
-<div class="prose-block people-section">
+<div class="prose-block page-section">
   <h2>Software</h2>
   <p>CARISMA develops and maintains software tools to support climate and risk analysis activities. Tools are continuously updated as part of active research projects.</p>
 </div>
 
-<div class="prose-block people-section">
+<div class="prose-block page-section">
   <h2>Data and Supporting Material</h2>
   <p>Alongside software, we provide supporting material for project dissemination and collaboration.</p>
   <ul class="plain-list">

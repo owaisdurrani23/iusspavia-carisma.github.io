@@ -221,12 +221,13 @@ img {
 }
 
 .centre-acronym {
-  font-size: 1rem;
-  letter-spacing: 0.18em;
+  font-size: clamp(1.6rem, 3.6vw, 3rem);
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--color-primary);
+  color: #9DC545;
   font-weight: 700;
-  margin-bottom: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+  line-height: 1;
 }
 
 .centre-summary {
@@ -699,40 +700,44 @@ img {
 
 /* Footer */
 .site-footer {
+  --footer-scale: 0.75;
   background-color: var(--color-dark);
   color: white;
-  padding: var(--spacing-xl) 0 0 0;
-  margin-top: var(--spacing-xl);
+  padding: calc(var(--spacing-xl) * var(--footer-scale)) 0 0 0;
+  margin-top: calc(var(--spacing-xl) * var(--footer-scale));
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
-  gap: var(--spacing-lg);
-  margin-bottom: var(--spacing-xl);
+  gap: calc(var(--spacing-lg) * var(--footer-scale));
+  margin-bottom: calc(var(--spacing-xl) * var(--footer-scale));
 }
 
 .footer-title {
   color: white;
-  margin-bottom: var(--spacing-xs);
+  margin-bottom: calc(var(--spacing-xs) * var(--footer-scale));
+  font-size: 1.2rem;
 }
 
 .footer-desc {
   color: var(--color-muted);
-  margin-bottom: var(--spacing-md);
+  margin-bottom: calc(var(--spacing-md) * var(--footer-scale));
+  font-size: 0.9rem;
 }
 
 .footer-address {
   font-style: normal;
   color: #9ca3af;
   line-height: 1.6;
+  font-size: 0.9rem;
 }
 
 .footer-links h4,
 .footer-contact h4 {
   color: white;
-  font-size: 1.125rem;
-  margin-bottom: var(--spacing-md);
+  font-size: 0.9rem;
+  margin-bottom: calc(var(--spacing-md) * var(--footer-scale));
 }
 
 .footer-links ul {
@@ -740,12 +745,13 @@ img {
 }
 
 .footer-links li {
-  margin-bottom: var(--spacing-sm);
+  margin-bottom: calc(var(--spacing-sm) * var(--footer-scale));
 }
 
 .footer-links a,
 .footer-contact a {
   color: #9ca3af;
+  font-size: 0.9rem;
 }
 
 .footer-links a:hover,
@@ -755,16 +761,16 @@ img {
 
 .social-links {
   display: flex;
-  gap: var(--spacing-sm);
-  margin-top: var(--spacing-md);
+  gap: calc(var(--spacing-sm) * var(--footer-scale));
+  margin-top: calc(var(--spacing-md) * var(--footer-scale));
 }
 
 .footer-bottom {
   border-top: 1px solid #374151;
-  padding: var(--spacing-md) 0;
+  padding: calc(var(--spacing-md) * var(--footer-scale)) 0;
   text-align: center;
   color: #9ca3af;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
 }
 
 /* Pages */
@@ -1474,11 +1480,11 @@ img {
 }
 
 /* People Section Spacing */
-.people-section {
+.page-section {
   margin-bottom: var(--spacing-xl);
 }
 
-.people-section h2 {
+.page-section h2 {
   margin-bottom: var(--spacing-lg);
   padding-bottom: var(--spacing-sm);
   border-bottom: 2px solid #9DC545;

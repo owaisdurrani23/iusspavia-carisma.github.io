@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-<div class="prose-block">
+<div class="prose-block page-section">
   <h2>Publications</h2>
   <p>List of peer-review scientific articles published in 2025.</p>
 </div>

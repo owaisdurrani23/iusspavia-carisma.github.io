@@ -7,7 +7,7 @@ permalink: /about/
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-<div class="prose-block people-section">
+<div class="prose-block page-section">
   <h2>Our History</h2>
   <div class="two-column-grid">
     <div>
@@ -32,7 +32,7 @@ permalink: /about/
   </figure>
 </div>
 
-<div class="prose-block people-section">
+<div class="prose-block page-section">
   <h2>Our Team Around the World</h2>
   <p>CARISMA brings together researchers from diverse backgrounds and nationalities, fostering a truly international research environment.</p>
   <div class="nationality-layout">
@@ -45,7 +45,7 @@ permalink: /about/
   </div>
 </div>
 
-<div class="prose-block people-section">
+<div class="prose-block page-section">
   <h2>Our Place</h2>
   <div class="two-column-grid place-layout">
     <div id="place-text" class="place-text">

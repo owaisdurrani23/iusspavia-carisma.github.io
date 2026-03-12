@@ -27,13 +27,13 @@ lab:
   full_name: "Climate change impAct studies for RISk MAnagement"
   tagline: "Research centre on climate change, impacts and risk management"
   department: "Climate, Sustainability and Risk"
-  university: "Scuola Universitaria Superiore Pavia"
+  university: "University School for Advanced Studies - IUSS Pavia"
   location: "Pavia, Italy"
   founded: 2019
   head: "Prof. Marco Gaetani"
   overview:
     intro:
-      - "Driven by curiosity and societal need, CARISMA brings together an interdisciplinary team of researchers — spanning climate modelling, hydrology, remote sensing, atmospheric physics, environmental engineering, and economics — to advance integrated research on climate change and sustainable development."
+      - "Driven by curiosity and societal need, CARISMA brings together an interdisciplinary team of researchers - spanning climate modelling, hydrology, remote sensing, atmospheric physics, environmental engineering, and economics - to advance integrated research on climate change and sustainable development."
     objectives:
     - "Understand: modelling Earth-system and socio-economic processes to characterise climate variability, change, and its drivers."
     - "Assess: quantifying the impacts of extreme weather events and long-term climate change on the environment, infrastructure, and human systems."
@@ -137,7 +137,7 @@ contact:
   phone: "Tel: +39 0382 375811"
   fax: "Fax: +39 0382 375899"
   address:
-    IUSS Pavia
+    IUSS Pavia - CARISMA Centre
     Palazzo del Broletto
     Piazza della Vittoria 15
     27100 Pavia, Italy

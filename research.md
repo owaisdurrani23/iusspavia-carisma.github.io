@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-<div class="prose-block people-section">
+<div class="prose-block page-section">
   <h2>Main Research Activities</h2>
   <ul class="plain-list">
     {% for item in site.lab.overview.activities %}
@@ -13,7 +13,7 @@ permalink: /research/
   </ul>
 </div>
 
-<div class="prose-block people-section">
+<div class="prose-block page-section">
   <h2>Research Areas</h2>
   <div class="editorial-sections">
     {% for area in site.lab.activity_sections %}
@@ -27,7 +27,7 @@ permalink: /research/
   </div>
 </div>
 
-<div class="prose-block people-section">
+<div class="prose-block page-section">
   <h2>Research Projects</h2>
   <ul class="project-list project-list-grid">
     {% assign sorted_projects = site.research | where: "project", true | sort: "title" %}
@@ -37,7 +37,7 @@ permalink: /research/
   </ul>
 </div>
 
-<div class="prose-block people-section">
+<div class="prose-block page-section">
   <h2>Collaborations</h2>
   <div class="two-column-grid">
     <div class="info-panel">
