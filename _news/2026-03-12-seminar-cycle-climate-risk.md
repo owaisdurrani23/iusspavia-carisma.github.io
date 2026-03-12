@@ -6,7 +6,7 @@ author: "Marco Gaetani"
 
 CARISMA is organising a [cycle of seminars on understanding and managing climate risk](https://www.iusspavia.it/it/eventi/cycle-seminars-understanding-and-managing-climate-risk-march-12-may-21-2026), running from March 12 to May 21, 2026, at IUSS Pavia (Palazzo Broletto, Pavia) and online. The series offers an overview of the scientific tools available to citizens, stakeholders, and decision-makers for adapting to climate change.
 
-The seminars are given in English and are recommended for Corsi Ordinari and PhD students. All seminars start at 15.00.
+The seminars are given in English. All seminars start at 15.00.
 
 **12 March 2026** — Sala del Camino
 *Monitoring forest dynamics under climate change: Integrating multiple approaches and timescales*

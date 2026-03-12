@@ -4,7 +4,7 @@ title: Education
 permalink: /education/
 ---
 
-<div class="prose-block">
-  <h2>Educational Activities</h2>
-  <p>Information about educational programs and courses can be added here.</p>
+<div class="prose-block people-section">
+  <h2>Education</h2>
+  <p>Here you can find the list of available courses by CARISMA.</p>
 </div>
