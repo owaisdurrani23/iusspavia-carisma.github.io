@@ -7,7 +7,7 @@
 name: "CARISMA Centre"
 description: "Climate change impact studies for risk management at IUSS Pavia."
 url: "https://iusspavia-carisma.github.io"
-baseurl: "/lab-website" # to be changed if the site is hosted in the main directory ""
+baseurl: "" # use empty string when deploying from iusspavia-carisma.github.io repository
 seo:
   title: "CARISMA | IUSS Pavia (Italy)"
   description: "Research group on climate change impact studies for risk management based at IUSS Pavia in Italy"
