@@ -23,5 +23,5 @@ Thumbs.db
 # Logs
 *.log
 
-# Files
-assets/*
+# # Files
+# assets/*
