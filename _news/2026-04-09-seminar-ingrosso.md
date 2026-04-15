@@ -52,10 +52,6 @@ Overall, these experiments highlight the critical role of vegetation and LULCCs 
 </div>
 
 <br>
-
-<p><em>For the attendance (in presence or online) to this seminar, 1 CU hour will be credited.</em></p>
-
-<br>
 <br>
 
 ---
