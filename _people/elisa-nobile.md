@@ -12,7 +12,7 @@ linkedin: "https://www.linkedin.com/in/elisagrazialucianobile/"
 photo: "assets/img/people/elisa-nobile.jpeg"
 ---
 
-Elisa Nobile is a PhD candidate in the Sustainable Development and Climate Change (PhD SDC) program in IUSS Pavia. Her research focuses on the indirect and cascading impacts of floods on economic systems, with a special interest in how infrastructure disruptions affect supply chains. Her goal is to develop risk assessment tools that capture both direct and indirect impacts to support more resilient systems and to support investments strategies.
+Elisa is a PhD candidate in the Sustainable Development and Climate Change (PhD SDC) program in IUSS Pavia. Her research focuses on the indirect and cascading impacts of floods on economic systems, with a special interest in how infrastructure disruptions affect supply chains. Her goal is to develop risk assessment tools that capture both direct and indirect impacts to support more resilient systems and to support investments strategies.
 
 In addition to her PhD research, she is a guest researcher at the [International Institute for Applied Systems Analysis (IIASA)](https://iiasa.ac.at/staff/elisa-nobile) where she contributes to Disrupt-SC, a spatially explicit agent-based model that simulates how transport infrastructure disruptions alter the flow of goods across supply chains, and how these perturbations propagate to affect households, firms, and international trade. Her work helps advance the model as a tool to analyze systemic risk, cascading impacts, and the role of policy interventions in shaping more resilient global value chains.
 
